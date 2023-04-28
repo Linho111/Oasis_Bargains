@@ -36,7 +36,11 @@ npm run build
 ```
 
 ## Local development
-
+git clone https://github.com/Linho111/Oasis_Bargains.git \
+&& cd Oasis_Bargains \
+&& echo "PUBLIC_STORE_DOMAIN=a7a11c-2.myshopify.com\nPUBLIC_STOREFRONT_API_TOKEN=85af61c724014f8bfe1c70cda74ca9ad\nSESSION_SECRET=LOCAL_SECRET" >> .env \
+&& yarn \
+&& yarn dev
 ```bash
 npm run dev
 ```
