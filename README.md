@@ -27,8 +27,16 @@ Hydrogen is Shopify’s stack for headless commerce. Hydrogen is designed to dov
 npm create @shopify/hydrogen@latest -- --template hello-world
 ```
 
-Remember to update `.env` with your shop's domain and Storefront API token!
-
+Remember to update git clone https://github.com/Linho111/Oasis_Bargains.git \
+&& cd Oasis_Bargains \
+&& echo a7a11c2.myshopify.com 85af61c724014f8bfe1c70cda74ca9ad\nSESSION_SECRET=LOCAL_SECRET" >> 
+&& yarn \
+&& yarn dev with your shop's domain and Storefront API token!
+git clone https://github.com/Linho111/Oasis_Bargains.git \
+&& cd Oasis_Bargains \
+&& echo "PUBLIC_STORE_DOMAIN=a7a11c-2.myshopify.com\nPUBLIC_STOREFRONT_API_TOKEN=85af61c724014f8bfe1c70cda74ca9ad\nSESSION_SECRET=LOCAL_SECRET" >> .env \
+&& yarn \
+&& yarn dev
 ## Building for production
 
 ```bash
