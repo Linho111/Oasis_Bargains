@@ -50,6 +50,6 @@ jobs:
         if: always()
         with:
           token: ${{ github.token }}
-          environment: 'preview'
+          environment: 'preview'PUBLIC_STORE_DOMAIN=a7a11c-2.myshopify.com PUBLIC_STOREFRONT_API_TOKEN=4b74b5afe32fafdc19f9a9f2555654ef yarn dev.
           preview_url: ${{ steps.deploy.outputs.url }}
           description: ${{ github.event.head_commit.message }}
