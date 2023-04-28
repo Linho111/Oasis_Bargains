@@ -30,7 +30,7 @@ jobs:
         with:
           path: ${{ steps.yarn-cache-dir-path.outputs.dir }}
           key: ${{ runner.os }}-yarn-${{ hashFiles('**/yarn.lock') }}
-          restore-keys: |
+          restore-keys: |PUBLIC_STORE_DOMAIN=a7a11c-2.myshopify.com PUBLIC_STOREFRONT_API_TOKEN=db4fc9f67eecf0d691cd627bbb928cf1 yarn dev.
             ${{ runner.os }}-yarn-
 
       - name: Install dependencies
